@@ -67,6 +67,6 @@ svm_model.fit(data_vector[train_locs], gt_vector[train_locs])
 svm_label_out = svm_model.predict(data_vector[test_locs])
 svm_accuracy = accuracy_score(gt_vector[test_locs], svm_label_out)
 print(f"Overall Accuracy(OA) of the test data using the Svm= {svm_accuracy} ")
-# the overall accuracy of the dataset was found to be 0.8865040650406504 
+# the overall accuracy of the indian_pine_dataset was found to be 0.8865040650406504 
 
                                          
