@@ -1,6 +1,5 @@
 import numpy as np
 import scipy.io as sio
-import matplotlib.pyplot as plt
 from skimage import io, exposure
 from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
